@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="js/nav.js"></script>
+    <script src="js/read_more.js"></script>
+
+
+        <link type="text/css" href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link type="text/css" href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link type="text/css" href="css/theme.css" rel="stylesheet">
+        <link type="text/css" href="images/icons/css/font-awesome.css" rel="stylesheet">
+        <link type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600' rel='stylesheet'>
+
+
+
+	<style>
+
+
+
+	@media only screen and (min-width: 769px){
+
+			.navbar{
+				display: none;
+			}
+		}
+
+		/*.span3{
+
+			 overflow: hidden;
+			position: fixed;
+
+  z-index: 1;
+			display: block;
+			margin: 5em;
+
+		}
+
+		.span a {
+
+			display: block;
+		}*/
+
+		.navbar {
+
+		}
+
+
+	@media only screen and (max-width: 768px) and (min-width: 428px) {
+
+
+		/*body {
+			font-size: 14px;
+		}
+
+		body .admin-side{
+			width: 100%;
+			display: inline;
+		}
+
+		.sidebar {
+    width: 10%;
+    height: 90%;
+    position: relative;
+			display: inline;
+
+
+  }
+ li a {float:left;
+	height: 1%;
+	 border-width: 0;
+
+	  margin-left: 0.15em;
+	 font-size: 9px;
+		}
+
+		i {
+			float:left;
+
+		}*/
+
+
+		.sticky-top {
+			display: none;
+		}
+
+		.navbar-collapse {
+		height: initial;
+		}
+
+
+
+
+
+
+
+
+}
+
+		@media only screen and (max-width: 428px) {
+
+
+			/*body {
+			font-size: 12px;
+		}
+
+		body .admin-side{
+			width: 100%;
+			display: inline;
+		}
+
+		.sidebar {
+    width: 10%;
+    height: 90%;
+    position: relative;
+			display: inline;
+
+
+  }
+ li a {float:left;
+	height: 1%;
+	 border-width: 0;
+
+	  margin-left: 0.05em;
+	 font-size: 7px;
+		}
+
+		i {
+			float:left;
+
+		}*/
+
+			.sticky-top {
+			display: none;
+		}
+
+			.navbar-collapse {
+		height: initial;
+		}
+
+
+
+
+
+		}
+	</style>
+
+</head>
+<body onLoad="run_first()">
+	<div class="sticky-top">
+                    <div class="col-md-3 col-sm-3 admin-side">
+                        <div class="sidebar" style="display: inline">
+                            <ul class="widget widget-menu unstyled">
+                                <li id="0" onClick="nav_item_selected(0)"><a href="admindashboard.php"><i class="menu-icon icon-dashboard"></i>Dashboard
+                                </a></li>
+                                <!--<li><a href="activity.html"><i class="menu-icon icon-bullhorn"></i>News Feed </a>
+                                </li>-->
+
+
+                              <li id="1" onClick="nav_item_selected(1)"><a href="Admin-user.php"><i class="menu-icon icon-inbox"></i>User<!--<b class="label green pull-right">
+                                        11</b>--> </a></li>
+
+                              <li id="2" onClick="nav_item_selected(2)"><a href="admin-course.php"><i class="menu-icon icon-inbox"></i>Course <!--<b class="label green pull-right">
+                                            11</b>--> </a></li>
+
+                              <li id="3" onClick="nav_item_selected(3)"><a href="admin-test.php"><i class="menu-icon icon-inbox"></i>Test <!--<b class="label green pull-right">
+                                                11</b>--> </a></li>
+
+                              <li id="4" onClick="nav_item_selected(4)"><a href="question-courses.php"><i class="menu-icon icon-inbox"></i>Question <!--<b class="label green pull-right">
+                                                                  11</b>--> </a></li>
+
+                              <li id="5" onClick="nav_item_selected(5)"><a href="mark-answers-course.php"><i class="menu-icon icon-inbox"></i>Mark answers <!--<b class="label green pull-right">
+                            11</b>--> </a></li>
+
+                            <li id="6" onClick="nav_item_selected(6)"><a href="edit_user_admin.php"><i class="menu-icon icon-inbox"></i>My profile <!--<b class="label green pull-right">
+                          11</b>--> </a></li>
+
+
+
+
+                                              <li><a href="index.php"><i class="menu-icon icon-signou"></i>Log out </a></li>
+
+							</ul>
+
+                        </div>
+                        <!--/.sidebar-->
+                    </div>
+	</div>
+
+
+
+	<!--<nav class="navbar navbar-expand-md bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Menu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav" >
+      <li class="nav-item">
+        <a class="nav-link" href="admindashboard.php"><i class="menu-icon icon-dashboard"></i>Dashboard</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Admin-user.php"><i class="menu-icon icon-inbox"></i>User</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="Admin-course.php"><i class="menu-icon icon-file"></i>Course</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="admin-test.php"><i class="menu-icon icon-file"></i>Test</a>
+      </li>
+		<li class="nav-item">
+        <a class="nav-link" href="courses.php"><i class="menu-icon icon-file"></i>Questions</a>
+      </li>
+    <li class="nav-item">
+        <a class="nav-link" href="mark-answers-course.php"><i class="menu-icon icon-file"></i>Mark answers</a>
+    </li>
+		<li class="nav-item">
+        <a class="nav-link" href="index.php"><i class="menu-icon icon-file"></i>Log out</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>-->
+
+
+
+					<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="admindashboard.php">Urban Xtreme</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li id="0" onClick="nav_item_selected(0)"><a href="admindashboard.php"><i class="menu-icon icon-dashboard"></i>Dashboard</a></li>
+		<li id="1" onClick="nav_item_selected(1)"><a href="Admin-user.php"><i class="menu-icon icon-inbox"></i>User</a></li>
+		<li id="2" onClick="nav_item_selected(2)"><a href="Admin-course.php"><i class="menu-icon icon-inbox"></i>Course</a></li>
+	    <li id="3" onClick="nav_item_selected(3)"><a href="admin-test.php"><i class="menu-icon icon-inbox"></i>Test </a></li>
+      <li id="4" onClick="nav_item_selected(4)"><a href="admin-test.php"><i class="menu-icon icon-inbox"></i>Question </a></li>
+		<li id="5" onClick="nav_item_selected(5)"><a href="mark-answers-course.php"><i class="menu-icon icon-inbox"></i>Mark answers </a></li>
+		<li id="6" onClick="nav_item_selected(6)"><a href="edit_user_admin.php"><i class="menu-icon icon-inbox"></i>My profile </a></li>
+		<li id="7" onClick="nav_item_selected(7)"><a href="index.php"><i class="menu-icon icon-signout"></i>Log out </a></li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+</body>
+
+<script>
+
+		function run_first() {
+    if(sessionStorage.item_id) {
+        document.getElementById(sessionStorage.item_id.toString()).classList.add("active");
+    }
+    else {
+        document.getElementById("0").classList.add("active");
+    }
+}
+
+function nav_item_selected(item_id) {
+    for(i = 0; i < 7; i++) {
+        document.getElementById(i.toString()).classList.remove("active");
+    }
+    document.getElementById(item_id.toString()).classList.add("active");
+
+    //store item_id in sessionStorage
+    sessionStorage.item_id = item_id;
+}
+
+	</script>
+
+</html>

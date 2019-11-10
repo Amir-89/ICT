@@ -1,0 +1,1784 @@
+/* styles.css */
+
+/* For mobile phones: */
+
+body {
+	background-image:url(https://cdn.wallpapersafari.com/6/25/kYMbd6.jpg);
+	width:100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	font-size:28px;
+	}
+
+h2 {
+	font-size:18px;
+	}
+
+p {
+	font-size:11px;
+	/*text-align:justify;*/
+	word-spacing:0.5px;}
+
+
+#banner h1 {
+	text-align:center;
+	ba
+	}
+
+#slide {
+	max-height:670px;
+	width:100%;}
+
+	/*-------------------------------------------------------------------------------------------- admin course Page ------------------------------------------------------------------------ */
+
+
+
+	body {
+		font: 400 15px Lato, sans-serif;
+		line-height: 1.8;
+		color: #818181;
+	}
+	h2 {
+		font-size: 24px;
+		text-transform: uppercase;
+		color: #303030;
+		font-weight: 600;
+		margin-bottom: 30px;
+	}
+	h4 {
+		font-size: 19px;
+		line-height: 1.375em;
+		color: #303030;
+		font-weight: 400;
+		margin-bottom: 30px;
+	}
+	.container-fluid {
+		padding: 30px;
+		background-image: image();
+	}
+	.bg-grey {
+		background-color: #f6f6f6;
+	}
+	.logo-small {
+		color: #f4511e;
+		font-size: 100px;
+	}
+	.logo {
+		color: #f4511e;
+		font-size: 200px;
+	}
+	.thumbnail {
+		padding: 0 0 15px 0;
+		border: none;
+		border-radius: 0;
+	}
+	.thumbnail img {
+		width: 100%;
+		height: 100%;
+		margin-bottom: 10px;
+	}
+	.carousel-control.right, .carousel-control.left {
+		background-image: none;
+		color: #f4511e;
+	}
+	.carousel-indicators li {
+		border-color: #f4511e;
+	}
+	.carousel-indicators li.active {
+		background-color: #f4511e;
+	}
+	.item h4 {
+		font-size: 19px;
+		line-height: 1.375em;
+		font-weight: 400;
+		font-style: italic;
+		margin: 70px 0;
+	}
+
+
+	@media screen and (max-width: 768px) {
+		.col-sm-4 {
+			text-align: center;
+			margin: 25px 0;
+		}
+		.btn-lg {
+			width: 100%;
+			margin-bottom: 35px;
+		}
+	}
+	@media screen and (max-width: 480px) {
+		.logo {
+			font-size: 150px;
+		}
+	}
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------- Login Page ------------------------------------------------------------------------ */
+
+
+
+
+/* For mobile phones: */
+
+	.login_header h1{text-align:center;color: white;}
+	.login{ margin:2%;position: relative;display: flex;justify-content: center;align-content:center; padding:4%;  border:1px solid black;
+	color:black; border-radius:4px; width:100%;display: inline-block;}
+
+	.button_login {
+	  display: inline-block;
+	  border-radius: 4px;	background: rgb(0,0,0,0.1); /* Fallback color */
+			background: rgba(0, 0, 0, 0.5);
+	  border: none;
+		position: relative;
+		left: 29%;
+	  color: #FFFFFF;
+	  text-align: center;
+	  font-size: 1em;
+	  padding: 10px;
+	  width: 7em;
+	  transition: all 0.5s;
+	  cursor: pointer;
+
+	}
+	.button_login:hover {
+	  display: inline-block;
+	  border-radius: 4px;
+		background: rgb(0,0,0,0.1); /* Fallback color */
+ 		background: rgba(0, 0, 0, 0.5);
+	  border: none;
+		position: relative;
+		left: 24%;
+	  color: #FFFFFF;
+	  text-align: center;
+	  font-size: 1em;
+	  padding: 10px;
+	  width: 7em;
+	  transition: all 0.5s;
+	  cursor: pointer;
+
+	}
+
+	.button_login span {
+	  cursor: pointer;
+	  display: inline-block;
+	  position: relative;
+	  transition: 0.5s;
+	}
+
+	.button_login span:after {
+	  content: '\00bb';
+	  position: absolute;
+	  opacity: 0;
+	  top: 0;
+	  right: -20px;
+	  transition: 0.5s;
+	}
+
+	.button_login:hover span {
+	  padding-right: 25px;
+
+	}
+
+	.button_login:hover span:after {
+	  opacity: 1;
+	  right: 0;
+	}
+	.signupnotice a {text-decoration: none;color: black;position: relative; }
+	.signupnotice a:hover {text-decoration: none;color: #B39019;position: relative; }
+
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  /* -----------------------For tablets: ----------------------------*/
+
+
+	.login_header {background-color: red;}
+	.login_header h1{text-align:center;color: black;}
+	.login{ margin:4%;position: relative;display: flex;justify-content: center;align-content:center; padding:4%;  border:1px solid black;
+	color:black; border-radius:4px; width:72%;left:14%;display: inline-block;}
+
+	.button_login {
+	  display: inline-block;
+	  border-radius: 4px;	background: rgb(0,0,0,0.1); /* Fallback color */
+			background: rgba(0, 0, 0, 0.1);
+	  border: none;
+		position: relative;
+		left: 24%;
+	  color: #FFFFFF;
+	  text-align: center;
+	  font-size: 1em;
+	  padding: 10px;
+	  width: 7em;
+	  transition: all 0.5s;
+	  cursor: pointer;
+
+
+
+
+	}
+	.button_login:hover {
+	  display: inline-block;
+	  border-radius: 4px;
+		background: rgb(0,0,0,0.1); /* Fallback color */
+ 		background: rgba(0, 0, 0, 0.5);
+	  border: none;
+		position: relative;
+		left: 24%;
+	  color: #FFFFFF;
+	  text-align: center;
+	  font-size: 1em;
+	  padding: 10px;
+	  width: 7em;
+	  transition: all 0.5s;
+	  cursor: pointer;
+
+	}
+
+
+	.button_login span {
+	  cursor: pointer;
+	  display: inline-block;
+	  position: relative;
+	  transition: 0.5s;
+	}
+
+	.button_login span:after {
+	  content: '\00bb';
+	  position: absolute;
+	  opacity: 0;
+	  top: 0;
+	  right: -20px;
+	  transition: 0.5s;
+	}
+
+	.button_login:hover span {
+	  padding-right: 25px;
+
+	}
+
+	.button_login:hover span:after {
+	  opacity: 1;
+	  right: 0;
+	}
+	.signupnotice a {text-decoration: none;color: black;position: relative; left: 8%;}
+	.signupnotice a:hover {text-decoration: none;color: #B39019;position: relative; left: 8%;}
+
+}
+
+
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+  .login_header {background-color: red;}
+	.login_header h1{text-align:center;color: black;}
+	.login{ margin:4%;position: relative;display: flex;justify-content: center;align-content:center; padding:4%; border:1px solid black;
+	color:black; border-radius:4px; width:45%;left:26%;}
+
+	.button_login {
+	  display: inline-block;
+	  border-radius: 4px;
+		background: rgb(0,0,0,0.1); /* Fallback color */
+		background: rgba(0, 0, 0, 0.1);
+	  border: none;
+		position: relative;
+
+	  color: #FFFFFF;
+	  text-align: center;
+	  font-size: 1em;
+	  padding: 10px;
+	  width: 7em;
+	  transition: all 0.5s;
+	  cursor: pointer;
+
+	}
+	.button_login:hover { display: inline-block;
+	 border-radius: 4px;
+	 background: rgb(0,0,0,0.1); /* Fallback color */
+	 background: rgba(0, 0, 0, 0.5);
+	 border: none;
+	 position: relative;
+
+	 color: #FFFFFF;
+	 text-align: center;
+	 font-size: 1em;
+	 padding: 10px;
+	 width: 7em;
+	 transition: all 0.5s;
+	 cursor: pointer;
+
+	}
+
+
+	.button_login span {
+	  cursor: pointer;
+	  display: inline-block;
+	  position: relative;
+	  transition: 0.5s;
+	}
+
+	.button_login span:after {
+	  content: '\00bb';
+		display: inline-block;
+	  position: absolute;
+	  opacity: 0;
+	  top: 0;
+	  right: -20px;
+	  transition: 0.5s;
+	}
+
+	.button_login:hover span {
+	  padding-right: 25px;
+
+	}
+
+	.button_login:hover span:after {
+	  opacity: 1;
+	  right: 0;
+	}
+	.signupnotice a {text-decoration: none;color: black;position: relative;  display: inline-block;}
+	.signupnotice a:hover {text-decoration: none;color: #B39019;position: relative;  display: inline-block;;
+	}
+
+	}
+
+
+
+/*-------------------------------------------------------------------------------------------- Create user START------------------------------------------------------------------------ */
+@media only screen and (max-width: 432px) {
+	/*--------------------------------------------for Mobile----------------------------------------------------------- */
+
+
+	.inputwidthforvreateuser{width:10em; border: 1px solid gray;border-radius: 2px;}
+
+
+	.containermember{align-items: center;text-align: center;}
+
+		.member {margin-left:%; padding:%; width:100%;border:1px solid #B39019;position: relative;
+		color:black; border-radius:1px;}
+
+
+		.imageprofile
+		{
+			 width:99px;
+			 height:99px;
+			 border: 5px solid white;
+			 border-radius: 50%;
+			 margin-top:-59px;
+		}
+
+			.imageprofile1
+			{
+				 width:99px;
+				 height:99px;
+				 border: 5px solid white;
+				 border-radius: 50%;
+				 margin-top:-59px;
+			}
+
+			.imageprofile1:hover
+			{
+				width:99px;
+				height:99px;
+				border: 5px solid black;
+				border-radius: 50%;
+				background: rgb(0, 0, 0,87);
+				background: rgba(12, 12, 12, 0.9);
+				opacity: 0.6;
+				cursor: pointer;
+
+			}
+
+			.image {
+	      display: inline-block;
+	      width: 220px;
+	      height: 220px;
+				margin: 8px;
+	    }
+
+	    .image:hover {
+	      display: inline-block;
+	      width: 200px;
+	      height: 200px;
+	      margin-top: 4px;
+	      opacity: 0.9;
+	      transition: .5s ease;
+	      padding: 1%;
+	      border: 3px solid black;
+
+	    }
+
+			.image23 {image {
+			  display: inline-block;
+			  height: auto;
+			  border: 1px dotted black;
+			  padding: 1%;
+			  display: inline-block;
+			}
+			}
+
+			.image23:hover {
+			  display: inline-block;
+
+			  height: auto;
+			  border: 1px dotted black;
+			  padding: 1%;
+			  display: inline-block;
+
+				opacity: 0.9;
+				transition: .5s ease;
+
+
+			}
+
+			.profileback
+			{
+
+				height:120px;
+				width:100%;
+				background: rgb(0,0,0,0.2);
+				background: rgba(0, 0, 0, 0.2);
+				margin-right: 1.5%;
+						}
+
+			.user-process-1{
+			font-size: 30px;
+			font-family: sans-serif;
+			margin-top: 2%;
+			}
+			.labelclass
+			{
+				margin-left:17%;
+			}
+			.labelclass1
+			{
+				margin-left: 10%;
+			}
+
+		.member label {
+			text-align: left;
+				width: 4em;
+				font-size: 0.9em;
+				float: left;
+		}
+
+
+					.button_signup_member_2
+					{
+						display: inline-block;
+						border-radius: 4px;
+						background-color: #ff9977;
+						border: none;
+						position: relative;
+						color: White;
+						text-align: center;
+						font-size: 18px;
+						padding: 1%;
+						width: 8em;
+						transition: all 0.5s;
+						cursor: pointer;
+						margin: 5px;
+					}
+
+					.button_signup_member_2:hover {
+						display: inline-block;
+						border-radius: 4px;
+						background-color: #ff7733;
+						border: none;
+						position: relative;
+						color: black;
+					height: auto;
+						font-size: 18px;
+						padding: 1%;
+						width: 8em;
+						transition: all 0.5s;
+						cursor: pointer;
+						margin: 5px;
+					}
+
+				.button_signup_member_1
+				{
+					display: inline-block;
+					border-radius: 4px;
+					background-color: #07D14A;
+					border: none;
+					position: relative;
+					color: #FFFFFF;
+					text-align: center;
+					font-size: 18px;
+					padding: 1%;
+					width: 4em;
+					transition: all 0.5s;
+					cursor: pointer;
+					margin: 5px;
+				}
+
+				.button_signup_member_1:hover {
+					display: inline-block;
+					border-radius: 4px;
+					background-color: #1C8F42;
+					border: none;
+					position: relative;
+					color: #FFFFFF;
+			  	height: auto;
+					font-size: 18px;
+					padding: 1%;
+					width: 4em;
+					transition: all 0.5s;
+					cursor: pointer;
+					margin: 5px;
+				}
+
+
+		.button_signup_member {
+			display: inline-block;
+			border-radius: 4px;
+			background-color: #07D14A;
+			border: none;
+			left: -19%;
+			position: relative;
+			color: #FFFFFF;
+			text-align: center;
+			font-size: 18px;
+			padding: 1%;
+			width: 9em;
+			transition: all 0.5s;
+			cursor: pointer;
+			margin: 5px;
+		}
+		.button_signup_member:hover {
+			display: inline-block;
+			border-radius: 4px;
+			background-color: #1C8F42;
+			border: none;
+			position: relative;
+			color: #FFFFFF;
+		height: auto;
+			font-size: 18px;
+			padding: 1%;
+			width: 9em;
+			transition: all 0.5s;
+			cursor: pointer;
+			margin: 5px;
+		}
+
+		.button_signup_member span {
+			cursor: pointer;
+			position: relative;
+			display: inline-block;
+			position: inherit;
+			transition: 0.5s;
+		}
+
+		.button_signup_member span:after {
+			content: '\00bb';
+		position: inherit;
+			opacity: 0;
+			top: 0;
+
+			transition: 0.5s;
+		}
+
+		.button_signup_member:hover span {
+			padding-right: 25px;
+
+		}
+
+		.button_signup_member:hover span:after {
+			opacity: 1;
+			right: 0;
+		}
+
+}
+/*--------------------------------------------------------------------------------------------Tablet ------------------------------------------------------------------------ */
+
+@media only screen and (max-width: 771px) and (min-width: 431px) {
+
+	.inputwidthforvreateuser{width: 15.5em; border: 1px solid gray;border-radius: 2px;}
+	.containermember{align-items: center;text-align: center;}
+
+
+
+
+			.member {width:96%;
+		    border: 1px solid #B39019;
+		    position: relative;
+		    color: black;
+		    border-radius: 1px;
+		    margin:%;
+		    padding-right: 1.5%;}
+
+				.imageprofile
+				{
+					 width:130px;
+					 height:130px;
+					 border: 5px solid white;
+					 border-radius: 50%;
+					 margin-top:-59px;
+				}
+
+					.imageprofile1
+					{
+						width:130px;
+						height:130px;
+						 border: 5px solid white;
+						 border-radius: 50%;
+						 margin-top:-59px;
+					}
+
+					.imageprofile1:hover
+					{
+						width:130px;
+						height:130px;
+						border: 5px solid black;
+						border-radius: 50%;
+						background: rgb(0, 0, 0,87);
+						background: rgba(12, 12, 12, 0.9);
+						opacity: 0.6;
+						cursor: pointer;
+
+					}
+
+					.image {
+			      display: inline-block;
+			      display: inline-block;
+			      width: 300px;
+			      height: 300px;
+			      margin: 8px;
+			    }
+
+			    .image:hover {
+			      display: inline-block;
+			      width: 300px;
+			      height: 300px;
+			      margin-top: 4px;
+			      opacity: 0.9;
+			      transition: .5s ease;
+			      padding: 1%;
+			      border: 3px solid black;
+
+			    }
+
+					.profileback
+					{
+
+						height:120px;
+						width:100%;
+				    background: rgb(0,0,0,0.2);
+						background: rgba(0, 0, 0, 0.2);
+						margin-right: 1.1%;
+
+
+
+					}
+
+			.user-process-1{
+			font-size: 30px;
+			font-family: sans-serif;
+			margin-top: 2%;
+			}
+			.labelclass
+			{
+				margin-left:17%;
+			}
+			.labelclass1
+			{
+				margin-left: 32%;
+			}
+
+		.member label {
+			text-align: left;
+				width: 4em;
+				float: left;
+			padding:0.5%;
+			padding-right: 0.5em;
+
+		}
+
+			.button_signup_member_2
+			{
+				display: inline-block;
+				border-radius: 4px;
+				background-color: #ff9977;
+				border: none;
+				left: -32%;
+				position: relative;
+				color: White;
+				text-align: center;
+				font-size: 18px;
+				padding: 1%;
+				width: 8em;
+				transition: all 0.5s;
+				cursor: pointer;
+				margin: 5px;
+			}
+
+			.button_signup_member_2:hover {
+				display: inline-block;
+				border-radius: 4px;
+				background-color: #ff7733;
+				border: none;
+				position: relative;
+				color: black;
+			height: auto;
+				font-size: 18px;
+				padding: 1%;
+				width: 8em;
+				transition: all 0.5s;
+				cursor: pointer;
+				margin: 5px;
+			}
+
+		.button_signup_member_1
+		{
+			display: inline-block;
+			border-radius: 4px;
+			background-color: #07D14A;
+			border: none;
+			left: -34%;
+			position: relative;
+			color: #FFFFFF;
+			text-align: center;
+			font-size: 18px;
+			padding: 1%;
+			width: 4em;
+			transition: all 0.5s;
+			cursor: pointer;
+			margin: 5px;
+		}
+
+		.button_signup_member_1:hover {
+			display: inline-block;
+			border-radius: 4px;
+			background-color: #1C8F42;
+			border: none;
+			position: relative;
+			color: #FFFFFF;
+		height: auto;
+			font-size: 18px;
+			padding: 1%;
+			width: 4em;
+			transition: all 0.5s;
+			cursor: pointer;
+			margin: 5px;
+		}
+
+
+
+
+		.button_signup_member {
+			display: inline-block;
+			border-radius: 4px;
+			background-color: #07D14A;
+			border: none;
+			left: -19%;
+			position: relative;
+			color: #FFFFFF;
+			text-align: center;
+			font-size: 18px;
+			padding: 1%;
+			width: 9em;
+			transition: all 0.5s;
+			cursor: pointer;
+			margin: 5px;
+		}
+		.button_signup_member:hover {
+			display: inline-block;
+			border-radius: 4px;
+			background-color: #1C8F42;
+			border: none;
+			position: relative;
+			color: #FFFFFF;
+		height: auto;
+			font-size: 18px;
+			padding: 1%;
+			width: 9em;
+			transition: all 0.5s;
+			cursor: pointer;
+			margin: 5px;
+		}
+
+		.button_signup_member span {
+			cursor: pointer;
+			position: relative;
+			display: inline-block;
+			position: inherit;
+			transition: 0.5s;
+		}
+
+		.button_signup_member span:after {
+			content: '\00bb';
+		position: inherit;
+			opacity: 0;
+			top: 0;
+
+			transition: 0.5s;
+		}
+
+		.button_signup_member:hover span {
+			padding-right: 25px;
+
+		}
+
+		.button_signup_member:hover span:after {
+			opacity: 1;
+			right: 0;
+		}
+	}
+
+
+/*--------------------------------------------------------------------------------------------Desktop ------------------------------------------------------------------------ */
+
+@media only screen and (min-width: 770px) {
+.inputwidthforvreateuser{width: 15.5em; border: 1px solid gray;border-radius: 2px;}
+.containermember{align-items: center;text-align: center;}
+
+	.member {width: 100%;
+    border: 1px solid #B39019;
+    position: relative;
+    color: black;
+    border-radius: 1px;
+    margin: 1.3%;
+    padding-left: 3%;
+    padding-right: 1.5%;}
+	.imageprofile
+	{
+		 width:150px;
+		 height:150px;
+		 border: 5px solid white;
+		 border-radius: 50%;
+		 margin-top:-59px;
+	}
+
+
+	    .image {
+	      display: inline-block;
+	      display: inline-block;
+	      width: 300px;
+	      height: 300px;
+	      margin: 8px;
+	    }
+
+	    .image:hover {
+	      display: inline-block;
+	      width: 300px;
+	      height: 300px;
+	      margin-top: 4px;
+	      opacity: 0.9;
+	      transition: .5s ease;
+	      padding: 1%;
+	      border: 3px solid black;
+
+	    }
+
+
+		.imageprofile1
+		{
+			width:150px;
+			height:150px;
+			 border: 5px solid white;
+			 border-radius: 50%;
+			 margin-top:-59px;
+		}
+
+		.imageprofile1:hover
+		{
+			width:150px;
+			height:150px;
+			border: 5px solid black;
+			border-radius: 50%;
+			background: rgb(0, 0, 0,87);
+			background: rgba(12, 12, 12, 0.9);
+			opacity: 0.6;
+			cursor: pointer;
+
+		}
+	.profileback
+	{
+
+		height:120px;
+		width:111%;
+    background: rgb(0,0,0,0.2);
+		background: rgba(0, 0, 0, 0.2);
+
+
+
+	}
+
+	.user-process-1{
+	font-size: 30px;
+	font-family: sans-serif;
+	margin-top: 2%;
+	}
+	.labelclass
+	{
+		margin-left:26%;
+		margin-right:-11%;
+
+	}
+	.labelclass1
+	{
+		margin-left: 10%;
+
+	}
+
+
+	.member label {
+		text-align: left;
+			width: 9em;
+			float: left;
+		padding:0.5%;
+		padding-right: 0.5em;
+
+	}
+
+
+
+
+	.button_signup_member_2
+	{
+		display: inline-block;
+		border-radius: 4px;
+		background-color: #ff9977;
+		border: none;
+		left: -32%;
+		position: relative;
+		color: White;
+		text-align: center;
+		font-size: 18px;
+		padding: 1%;
+		width: 8em;
+		transition: all 0.5s;
+		cursor: pointer;
+		margin: 5px;
+	}
+
+	.button_signup_member_2:hover {
+		display: inline-block;
+		border-radius: 4px;
+		background-color: #ff7733;
+		border: none;
+		position: relative;
+		color: black;
+	height: auto;
+		font-size: 18px;
+		padding: 1%;
+		width: 8em;
+		transition: all 0.5s;
+		cursor: pointer;
+		margin: 5px;
+	}
+
+.button_signup_member_1
+{
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #07D14A;
+	border: none;
+	left: -34%;
+	position: relative;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 18px;
+	padding: 1%;
+	width: 4em;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+.button_signup_member_1:hover {
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #1C8F42;
+	border: none;
+	position: relative;
+	color: #FFFFFF;
+height: auto;
+	font-size: 18px;
+	padding: 1%;
+	width: 4em;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 5px;
+}
+
+	.button_signup_member {
+		display: inline-block;
+		border-radius: 4px;
+		background-color: #07D14A;
+		border: none;
+		left: -10%;
+		position: relative;
+		color: #FFFFFF;
+		text-align: center;
+		font-size: 18px;
+		padding: 1%;
+		width: 9em;
+		transition: all 0.5s;
+		cursor: pointer;
+		margin: 5px;
+	}
+	.button_signup_member:hover {
+		display: inline-block;
+		border-radius: 4px;
+		background-color: #1C8F42;
+		border: none;
+		position: relative;
+		color: #FFFFFF;
+	height: auto;
+		font-size: 18px;
+		padding: 1%;
+		width: 9em;
+		transition: all 0.5s;
+		cursor: pointer;
+		margin: 5px;
+	}
+
+	.button_signup_member span {
+		cursor: pointer;
+		position: relative;
+		display: inline-block;
+		position: inherit;
+		transition: 0.5s;
+	}
+
+	.button_signup_member span:after {
+		content: '\00bb';
+	position: inherit;
+		opacity: 0;
+		top: 0;
+
+		transition: 0.5s;
+	}
+
+	.button_signup_member:hover span {
+		padding-right: 25px;
+
+	}
+
+	.button_signup_member:hover span:after {
+		opacity: 1;
+		right: 0;
+	}
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/*-------------------------------------------------------------------------------------------- Create user END ------------------------------------------------------------------------ */
+
+
+
+
+/*-------------------------------------------------------------------------------------------- Memberdetails Page ------------------------------------------------------------------------ */
+
+.member_details { margin:4%; align-content:center; padding:1%; border:5px solid black; background-color:transparent; color:#8E8E8E; background: rgba(0, 0, 0, 0.6); border-radius:9px;}
+.member_details label{
+    width: 10em;
+    float: left;
+	padding:1%;
+    padding-right: 0.5em;
+	}
+#member_details p { color:#8E8E8E;word-spacing:0.5px;}
+
+/*-------------------------------------------------------------------------------------------- editMember Page ---------------------------------------------------------------------------- */
+
+
+/*.edit_member,input{width: 110px; border: 1px solid white;}*/
+
+
+.inputwidthforemailandotherinputintable3 {
+
+	 background: rgb(0,0,0,0.1);
+	 background: rgba(0, 0, 0, 0.1);
+    border-bottom:1px solid black;
+		border-top: none;
+		border-left: none;
+		border-right: none;
+		border-radius: 9px;
+		padding: 8px;
+    height: 2em;
+    color: #ff7733;
+	}
+
+/*-------------------------------------------------------------------------------------------- Sucess Page :------------------------------------------------------------------------------- */
+.sucess{ margin:4%; align-content:center; padding:1%; border:5px solid black; background-color:transparent; color:#8E8E8E; background: rgba(0, 0, 0, 0.6); border-radius:9px;}
+.sucess p{color:#8E8E8E; text-align:justify;word-spacing:0.5px;}
+
+
+/*-------------------------------------------------------------------------------------------- member_process :---------------------------------------------------------------------------- */
+.member_process{ margin:4%; align-content:center; padding:1%; border:5px solid black; background-color:transparent; color:#8E8E8E; background: rgba(0, 0, 0, 0.6); border-radius:9px;}
+.member_process p{color:#8E8E8E;text-align:justify;word-spacing:0.5px;}
+
+/*-------------------------------------------------------------------------------------------- submit_button :---------------------------------------------------------------------------- */
+submit{ background-color:transparent; color:#8E8E8E; background: rgba(0, 0, 0, 0.6); border-radius:9px;}
+
+
+/*-------------------------------------------------------------------------------------------- header :---------------------------------------------------------------------------- */
+
+
+
+@media only screen and (min-width: 769px) {
+.text-center-banner{font-size:4.5em;font-family: cursive;}
+	.banner{align-content:center;color:#000000;
+		background-color:black;
+	widows:auto; background-size:cover;padding:1%; width:auto;
+	 border-bottom: 1px solid #ff7733;
+
+}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px)
+ {
+	 .banner{align-content:center;color:#000000;
+		 background-color:black;
+	 widows:auto; background-size:cover;padding:1%; width:auto;
+	 border-bottom: 1px solid #ff7733;
+ }
+
+	 .text-center-banner{font-size:3em;font-family: cursive;font-family: cursive;}
+ }
+ @media only screen and (max-width: 425px)
+  {
+		.banner{align-content:center;color:#000000;
+			background-color:black;
+		widows:auto; background-size:cover;padding:1%; width:auto;
+		border-bottom: 1px solid #ff7733;
+
+	}
+
+ 	 .text-center-banner{font-size:2em;font-family: cursive;}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------------------------------
+				Footer
+
+------------for desktop-------------------------------------- */
+
+@media only screen and (min-width: 769px) {
+.footer-distributed{
+	background-color:black;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font:16px;
+	padding:2%;
+	margin-top: 80px;
+	border-top: 2px solid #ff7733;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+	margin-left: 15%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color:#ff7733;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color:#ff7733; /* U N I Q U E Logo */
+	font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:#ff7733;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/*-------------------------------------------------Footer Center------------------------------------------ */
+
+.footer-distributed .footer-center{
+	width: 40%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:Black;
+	color: #ff7733;
+	font-size: 29px;
+	width: 36px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 1px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+		color: #ff7733;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #ff7733;
+	text-decoration: none;;
+}
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:black;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ff7733;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+}
+/*---------------------------------------------------------------------------------------------------------- */
+
+/*-------------------------------
+		NAVBAR
+------------------------------*/
+.navbar{display: :inline-block;}
+
+
+/* for tablets */
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+	.footer-distributed{
+		background-color:black;
+		box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+		box-sizing: border-box;
+		width: 100%;
+		text-align: left;
+		font:16px;
+		padding: 55px 50px;
+		margin-top: 80px;
+		border-top: 2px solid #ff7733;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	/* Footer left */
+
+	.footer-distributed .footer-left{
+		width: 40%;
+		margin-left: 6%;
+	}
+
+	/* The company logo */
+
+	.footer-distributed h3{
+		color:  #ff7733;
+		font: normal 36px 'Cookie', cursive;
+		margin: 0;
+	}
+
+	.footer-distributed h3 span{
+		color:black; /* U N I Q U E Logo */
+		font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	}
+
+	/* Footer links */
+
+	.footer-distributed .footer-links{
+		color:black;
+		margin: 20px 0 12px;
+		padding: 0;
+	}
+
+	.footer-distributed .footer-links a{
+		display:inline-block;
+		line-height: 1.8;
+		text-decoration: none;
+		color:  inherit;
+	}
+
+	.footer-distributed .footer-company-name{
+		color:  #ff7733;
+		font-size: 14px;
+		font-weight: normal;
+		margin: 0;
+	}
+
+	/*-------------------------------------------------Footer Center------------------------------------------ */
+
+	.footer-center{
+		width: 50%;
+		}
+
+	.footer-center i{
+    /* background-color: #E8E1E1; */
+     color: #ff7733;
+    font-size: 22px;
+    width: 38px;
+		left: 10px;
+    /* height: 38px; */
+    border-radius: 50%;
+    /* text-align: center; */
+    /* line-height: 42px; */
+    /* margin: 10px 15px; */
+    vertical-align: middle;
+	}
+
+.footer-center i.fa-envelope{
+		font-size: 1px;
+		line-height: 38px;
+		color: #ff7733;
+	}
+
+	.footer-distributed .footer-center.footer-p{
+		display: inline-block;
+		color: #ff7733;
+		vertical-align: right;
+		margin: 20px;
+
+	}
+	.footer-p{color: #ff7733;}
+
+	.footer-distributed .footer-center .footer-p span{
+		display:block;
+		font-weight: normal;
+		font-size:14px;
+		line-height:2;
+	}
+
+	.footer-distributed .footer-center .footer-p a{
+		color:#ff7733;
+		text-decoration: none;;
+	}
+	.footer-distributed .footer-icons{
+		margin-top: 25px;
+	}
+
+	.footer-distributed .footer-icons a{
+		display: inline-block;
+		width: 35px;
+		height: 35px;
+		cursor: pointer;
+		background-color:black;
+		border-radius: 2px;
+
+		font-size: 20px;
+		color:#ff7733;
+		text-align: center;
+		line-height: 35px;
+
+	margin-bottom: 5px;
+	}
+
+}
+/*---------------------------------------------------------------------------------------------------------- */
+
+/* --------------------------------------------for Mobile---------------------------------------------- */
+@media only screen and (max-width: 429px) {
+
+	.footer-distributed{
+		background-color:black;
+		box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+		box-sizing: border-box;
+		width: 100%;
+		text-align: center;
+		font:16px;
+		padding: 55px 50px;
+		margin-top: 80px;
+		border-top: 2px solid #ff7733;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	/* Footer left */
+
+	.footer-distributed .footer-left{
+		width: 100%;
+		border-bottom: 1px solid #ff7733;
+	}
+
+	/* The company logo */
+
+	.footer-distributed h3{
+		color: #ff7733;
+		font: normal 36px 'Cookie', cursive;
+		margin: 0;
+	}
+
+	.footer-distributed h3 span{
+		color:#ff7733; /* U N I Q U E Logo */
+		font-family: Lucida Grande, Lucida Sans Unicode, Lucida Sans, DejaVu Sans, Verdana," sans-serif";
+	}
+
+	/* Footer links */
+
+	.footer-distributed .footer-links{
+		color:black;
+		margin: 20px 0 12px;
+		padding: 0;
+	}
+
+	.footer-distributed .footer-links a{
+		display:inline-block;
+		line-height: 1.8;
+		text-decoration: none;
+		color:  inherit;
+	}
+
+	.footer-distributed .footer-company-name{
+		color:#ff7733;
+		font-size: 14px;
+		font-weight: normal;
+		margin: 0;
+	}
+
+	/*-------------------------------------------------Footer Center------------------------------------------ */
+
+	.footer-distributed .footer-center{
+		width: 100%;
+		text-align: justify;
+		margin-top: 10%;
+		border-bottom: 1px solid #ff7733;
+	}
+
+	.footer-distributed .footer-center i{
+		background-color: black;
+color: #ff7733;
+font-size: 22px;
+width: 38px;
+height: 38px;
+border-radius: 269px;
+text-align: justify;
+/* line-height: 42px; */
+text-align: -webkit-center;
+width: 18%;
+/* padding: 5px; */
+margin-left: 40px;
+margin-right: 20px;
+
+	}
+
+
+	.footer-distributed .footer-center p{
+		display: inline-block;
+		color: #ff7733;
+		vertical-align: middle;
+
+	}
+
+	.footer-distributed .footer-center p span{
+		display:block;
+		font-weight: normal;
+		font-size:14px;
+		line-height:2;
+		color: #ff7733;
+	}
+
+	.footer-distributed .footer-center p a{
+color: #ff7733;		text-decoration: none;;
+	}
+	/*---------------------------------------------------------------------------------------------------------- */
+
+
+	/*----------------------------------------------------------Footer Right -----------------------------------------*/
+
+	.footer-distributed .footer-right{
+		width: 100%;
+		text-align: center;
+		align-items:center;
+		margin-: 5%;
+
+	}
+
+	.footer-distributed .footer-company-about{
+		line-height: 20px;
+		color:  #ff7733;
+		font-size: 13px;
+		font-weight: normal;
+		margin: 0;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-company-about span{
+		display: block;
+		color:  red;
+		font-size: 14px;
+		font-weight: bold;
+		margin-bottom: 20px;
+			text-align: center;
+	}
+
+	.footer-distributed .footer-icons{
+			margin-top: 25px;
+			text-align: center;
+	}
+
+	.footer-distributed .footer-icons a{
+		display: inline-block;
+		width: 35px;
+		height: 35px;
+		cursor: pointer;
+		background-color: black;
+		border-radius: 2px;
+
+		font-size: 20px;
+		color: #ff7733;
+		text-align: center;
+		line-height: 35px;
+
+		margin-right: 3px;
+		margin-bottom: 5px;
+		text-align: center;
+	}
+
+}
+
+
+
+
+/* -------------------------------------------------------Preevious result tablets-----------------------------------------------*/
+
+@media only screen and (max-width: 429px) {
+	/* -----------------for mobile-------------------------------*/
+	table_heading{font-size: 2em;}
+	.search_results{align-content:center; color:black; border-radius:5px;}
+	#search_table th{color: black; background-color: #ff7733;font-size:10px;alignment-adjust:central; border:1px solid black;  text-align: center;}
+	#search_table td{border:1px solid black;}
+	.glyphicon{font-size: 1em;color:black;}
+	.delete{background-color: transparent;border: none;}
+	.delete:hover{background-color:transparent; border-bottom:1px dotted #ff7733;}
+	.glyphicon:hover{font-size: 1em;color: #ff7733;}
+	.inputwidthforemailandotherinputintable{color:black;background-color: transparent;
+	    border: 0px solid;width:100%;font-size: 10px;}
+	.inputwidthforemailandotherinputintable:hover{color: #ff7733;border: 1px dotted #ff7733;}
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+	/* -----------------for tablets-------------------------------*/
+
+	.table_heading{font-size: 2em;}
+	.search_results{ margin:1%; align-content:center;color:black; border-radius:5px;}
+	#search_table th{color: black; background-color: #ff7733;padding:0.4%;font-size:1em;alignment-adjust:central; border:2px solid black;  text-align: center;}
+	#search_table td{padding:0.2%;border:2px solid black; resize:both;}
+	.glyphicon{font-size: 1.5em; width: 2em;color:black;}
+	.inputwidthforemailandotherinputintable{color:black;background-color: transparent;
+	    border: 0px solid;width:100%;}
+	.delete{background-color: transparent;border: none;}
+	.delete:hover{background-color:transparent; border-bottom:2px dotted #ff7733;}
+	.glyphicon:hover{font-size: 1.5em;color: #ff7733;}
+	.inputwidthforemailandotherinputintable:hover{color: #ff7733;border: 1px dotted #ff7733;}
+}
+@media only screen and (min-width: 769px) {
+	/* -----------------for desktop-------------------------------*/
+.table_heading{font-size: 2em;}
+.search_results{width:60;align-content:left;color:black;}
+#search_table th{padding:1%; resize:both;color: black; background-color: #ff7733;font-size:1em;alignment-adjust:left; border:2px solid black;}
+#search_table td{padding:1%; border:2px solid black; resize:both;}
+.inputwidthforemailandotherinputintable{color:black;background-color: transparent;border: 0px solid;width:100%;}
+
+.glyphicon{font-size: 1.5em; width:2em;color:black;}
+.delete{background-color: transparent;border: none;}
+.delete:hover{background-color:transparent; border-bottom:2px dotted #ff7733;}
+.glyphicon:hover{font-size: 1.5em;color: #ff7733;}
+.inputwidthforemailandotherinputintable:hover{color: #ff7733;border: 1px dotted #ff7733;}
+
+
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------*/
+
+/* For tablets: */
+@media only screen and (min-width:600px){
+
+h1 {
+	font-size:32px;
+	}
+h2 {
+	font-size:24px;
+	}
+p {
+	font-size:16px;
+	}
+	}
+
+/* For desktop: */
+@media only screen and (min-width: 768px) {
+
+h1 {
+	font-size:42px;
+	}
+h2 {
+	font-size:30px;
+	}
+p {
+	font-size:18px;
+	}
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------- Dashboard ----------------------------  --------------- */
+
+
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 428px) {
+
+
+		body {
+			font-size: 14px;
+		}
+
+		body .admin-side{
+			width: 100%;
+			display: inline;
+		}
+
+		.sidebar {
+    width: 10%;
+    height: 90%;
+    position: relative;
+			display: inline;
+
+
+  }
+ li a {float:left;
+	height: 1%;
+	 border-width: 0;
+
+	  margin-left: 0.15em;
+	 font-size: 9px;
+		}
+
+		i {
+			float:left;
+
+		}
+
+
+
+
+
+
+}
+
+		@media only screen and (max-width: 428px) {
+
+
+			body {
+			font-size: 12px;
+		}
+
+		body .admin-side{
+			width: 100%;
+			display: inline;
+		}
+
+		.sidebar {
+    width: 10%;
+    height: 90%;
+    position: relative;
+			display: inline;
+
+
+  }
+ li a {float:left;
+	height: 1%;
+	 border-width: 0;
+
+	  margin-left: 0.05em;
+	 font-size: 7px;
+		}
+
+		i {
+			float:left;
+
+		}
+
+
+		}
